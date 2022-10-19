@@ -67,4 +67,5 @@ navigator.geolocation.getCurrentPosition((position) => {
     .catch((err) => console.error(err));
 });
 
+getCurrentTime();
 setInterval(getCurrentTime, 1);
