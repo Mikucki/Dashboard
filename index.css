@@ -1,0 +1,161 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 2rem;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  padding: 0;
+  margin: 2rem;
+}
+
+body {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0px 0px 20px #242424;
+  font-family: "Tourney", cursive;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+}
+
+.crypto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.crypto-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding: 2rem;
+  padding-right: 0em;
+}
+
+.crypto-name {
+  padding: 1rem;
+  margin: 0;
+}
+
+.crypto-row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.high {
+  color: green;
+}
+
+.low {
+  color: red;
+}
+
+.data {
+  margin-top: 0px;
+  padding: 0;
+}
+
+.time {
+  font-size: 7rem;
+  position: fixed;
+  top: 40vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "Tourney", cursive;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-name {
+  margin: 0;
+  padding: 0;
+}
+
+.location {
+  margin: 0;
+  padding: 0;
+}
+
+.location-name-name {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+}
+
+.nonepad {
+  padding: 0;
+  margin: 0;
+  margin-right: 2rem;
+  font-size: 3rem;
+}
+
+.nonepad-img {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+}
